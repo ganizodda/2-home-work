@@ -223,4 +223,46 @@
 
     margin-left: 800px;
 }
+.sec6{
+    width: 100%;
+    height: 200px;
+    background-image: url(./f00572a9e4c1d924a7af45ea22ff31a554b4eee0.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.236);
+    padding-top: 30px;
+    color: #F6F8F7;
+}
+.sec7{
+    width: 100%;
+    height: 900px;
 
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.a21{
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+}
+.a22{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+.a23{
+    width: 400px;
+    height: 410px;
+    background-color: blue;
+    color: white;
+}
