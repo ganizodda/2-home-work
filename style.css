@@ -264,7 +264,7 @@
 .a23{
     width: 400px;
     height: 410px;
-    background-color: blue;
+    background-color: #2947A9;
     color: white;
 }
 .sec8{
@@ -434,7 +434,5 @@ input{
             margin: auto;
         }
     }
-    .finish{
-        
-    }
+    
 }
