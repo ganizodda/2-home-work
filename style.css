@@ -19,6 +19,9 @@
     width: 400px;
     height: 80px;
 }
+.menu{
+    display: none;
+}
 .a2{
     display: flex;
     justify-content: center;
@@ -46,7 +49,7 @@
     font-size: 60px;
     width: 500px;
     margin-top: 150px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .a4{
     width: 400px;
@@ -220,7 +223,6 @@
 .a20{
     width: 400px;
     height: 450px;
-
     margin-left: 800px;
 }
 .sec6{
@@ -238,10 +240,9 @@
 .sec7{
     width: 100%;
     height: 1000px;
-
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     
 }
@@ -316,4 +317,124 @@ input{
     align-items: center;
     background-color: blue;
     color: white;
+}
+@media (max-width:510px) {
+    .headder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        .a2{
+            display: none;
+        }
+        .menu{
+            display: block;
+        }
+        .a1{
+            width: 200px;
+        }
+    }
+    .sec1{
+        width: 100%;
+        height: 800px;
+        flex-wrap: wrap;
+        text-align: center;
+        .a3{
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            margin-top: 40px;
+        }
+        .a6{
+            width: 90%;
+            margin: auto;
+            margin-right: 300px;
+            margin-top: 200px;
+        }
+        .a4{
+            width: 100%;
+        }
+        .a5{
+            width: 111.5%;
+        }
+    }
+    .sec2{
+        width: 100%;
+        height: 700px;
+        flex-wrap: wrap;
+    }
+    .sec3{
+        width: 100%;
+        flex-wrap: wrap;
+        height: 1000px;
+        .a9{
+            margin: auto;
+            width: 80%;
+            margin-left: 230px;
+            margin-top: -40px;
+        }
+    }
+    .sec4{
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .sec5{
+        display: none;
+        .a11{
+            display: none;
+        }
+        .a20{
+            display: none;
+        }
+    }
+    .sec6{
+         color: black;
+    }
+    .sec7{
+        width: 80%;
+        height: 300px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .a21{
+        width: 100%;
+        height: 400px;
+    }
+    .a22{
+        margin: auto;
+        margin-right: 400px;
+        display: none;
+    }
+    .sec8{
+        .a24{
+            flex-wrap: wrap;
+            width: 80%;
+            margin: auto;
+            height: 600px;
+        }
+    }
+    .sec9{
+        width: 300px;
+        height: 700px;
+        flex-wrap: wrap;
+        .a25{
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .a26{
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .icons{
+
+            text-align: center;
+            margin-top: 30px;
+        }
+        .aaaa{
+            margin: auto;
+        }
+    }
+    .finish{
+        
+    }
 }
